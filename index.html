@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about" class="active">About</a>
+            <a href="#services" class="active">Skills</a>
+            <a href="#portfolio" class="active">Projects</a>
+            <a href="#contact" class="active">Contact</a>
+        </nav>
+     </header>
+
+     <!--Home-->
+
+     <section class="home" id="home">
+        <div class="home-content">
+            <h1>Deepan Raj S</h1>
+            <h3>I'm a <span class="multiple-text"></span></h3>
+            <p class="home-para">I am a passionate software developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js and MySQL. Additionally, I am well-versed in programming languages such as Java, JavaScript, Python and C++. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences</p>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/vineethgm/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/Vineethgm-Projects"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/_.dream_catcher_01/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="C:\Users\vinee\Downloads\Screenshot (291).png" class="btn">Download Resume</a>
+        </div>
+        <div class="home-img">
+            <img src="C:\Users\vinee\Downloads\my pho.jpg" alt="">
+        </div>
+     </section>
+
+     <!--about-->
+
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="Z:\profilr\my3.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">ABOUT <span>Me</span></h2>
+            <h3>Software Developer</h3>
+            <p>I am an aspiring software developer with a strong passion for creating dynamic and efficient web applications. My technical expertise spans several key areas, including React, Tailwind CSS, Next.js, MySQL, and Node.js. I am proficient in programming languages such as Java, JavaScript, Python and C++, which allows me to tackle a wide range of development challenges.</p>
+            <div id="more-content" style="display: none;">
+                <p>With a keen eye for detail and a commitment to continuous learning, I am dedicated to honing my skills and staying up-to-date with the latest industry trends. My projects reflect my ability to blend frontend and backend technologies to deliver seamless, high-performing applications. I am excited to contribute my knowledge and enthusiasm to innovative development teams, and I look forward to taking on new challenges in the world of software development.</p>
+            </div>
+            <a href="javascript:void(0);" class="btn" id="read-more-btn">Read more</a>
+        </div>
+    </section>
+    
+
+     <!--service-->
+
+     <section class="services" id="services">
+        <h2 class="heading">My <span>Skillsets</span></h2>
+    
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-brands fa-react"></i>
+                <h3 class="services-h3">Front-end Technologies</h3>
+                <p>In my journey as a software developer, I specialize in crafting exceptional web applications using cutting-edge technologies like React, Tailwind CSS, and Next.js. These tools enable me to build responsive, visually appealing interfaces that enhance user interaction and experience. I leverage React's component-based architecture to create modular and reusable UI elements, ensuring scalability and maintainability in my projects. Tailwind CSS empowers me to design sleek and modern user interfaces efficiently, with its utility-first approach allowing for rapid prototyping and customization.</p>
+                <div id="more-web-development" style="display: none;">
+                    <p>With Next.js, I bring server-side rendering and routing capabilities to my applications, optimizing performance and SEO. My projects showcase a blend of creativity and technical proficiency, where I seamlessly integrate these frontend technologies to deliver intuitive and engaging web solutions. Whether it's developing dynamic e-commerce platforms, interactive dashboards, or user-friendly content management systems, I am dedicated to leveraging my skills to create impactful digital experiences that meet both user needs and business goals</p>
+                </div>
+                <a href="javascript:void(0);" class="btn" onclick="toggleMoreContent('more-web-development', this)">Read More</a>
+            </div>
+    
+            <div class="services-box">
+                <i class="fa-solid fa-database"></i>
+                <h3 class="services-h3">Back-end Technologies</h3>
+                <p>My projects demonstrate a deep understanding of backend architecture and development practices, where I integrate MySQL's relational database capabilities with Node.js's event-driven, non-blocking I/O model to deliver efficient and responsive applications. From creating RESTful APIs to implementing authentication and authorization mechanisms, my skills in backend development enable me to build scalable and secure solutions that cater to diverse business requirements. I am passionate about leveraging technology to solve complex challenges and deliver impactful digital solutions that drive innovation and user satisfaction.</p>
+                <div id="more-uiux-design" style="display: none;">
+                    <p>I excel in building robust web applications by harnessing the power of MySQL and Node.js for backend development. With MySQL, I ensure reliable data storage and efficient database management, designing schemas that optimize performance and scalability. Leveraging Node.js, I implement server-side logic and APIs that handle data retrieval, manipulation, and interaction with frontend components seamlessly.</p>
+                </div>
+                <a href="javascript:void(0);" class="btn" onclick="toggleMoreContent('more-uiux-design', this)">Read More</a>
+            </div>
+    
+            <div class="services-box">
+                <i class="fa-brands fa-java"></i>
+                <h3 class="services-h3">Languages</h3>
+                <p>My proficiency in Python, Java, JavaScript, and C++ underscores my strong problem-solving abilities across a wide range of programming paradigms and domains. In Python, I excel in developing versatile applications, leveraging its clean syntax and rich library ecosystem for tasks ranging from data analysis to web development. Java serves as my foundation for building robust, enterprise-scale solutions, where I apply object-oriented principles to ensure maintainability and scalability. JavaScript enables me to create dynamic and interactive web applications, harnessing frameworks like React and Node.js to deliver seamless user experiences and efficient server-side logic.</p>
+                <div id="more-app-development" style="display: none;">
+                    <p>In C++, I leverage its performance-oriented features for system-level programming and algorithmic challenges, ensuring optimal efficiency and memory management. Across these languages, I showcase a deep understanding of data structures, algorithms, and design patterns, enabling me to tackle complex problems with systematic and efficient solutions. My projects demonstrate my ability to leverage each language's strengths to innovate, whether developing scalable backend services, crafting intuitive user interfaces, or optimizing algorithms for computational tasks. I am driven by a passion for continuous learning and applying my skills to create impactful solutions in software development.</p>
+                </div>
+                <a href="javascript:void(0);" class="btn" onclick="toggleMoreContent('more-app-development', this)">Read More</a>
+            </div>
+        </div>
+    </section>
+    
+
+     <!--service-->
+
+     <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="Z:\profilr\ulearnx.jpg" alt="" class="project-image" id="project-image">
+                <div class="portfolio-layer">
+                    <h4>UlearnX</h4>
+                    <p>UlearnX is a dynamic learning platform developed using Next.js and Tailwind CSS, allowing users to both learn and upload courses across various domains such as Artificial Intelligence, Web Development, and Data Science. The platform offers a responsive and user-friendly interface, ensuring seamless navigation and accessibility on any device. By leveraging modern web development frameworks, UlearnX delivers an engaging and efficient educational experience for both learners and educators.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="Z:\profilr\filmrave.png" alt="" class="project-image" id="project-image">
+                <div class="portfolio-layer">
+                    <h4>Film Rave</h4>
+                    <p>Film Rave is a robust movie review and rating platform built using React, Spring Boot, and MySQL. This project provides users with an interactive space to explore, review, and rate their favorite films. The frontend, crafted with React, ensures a smooth and responsive user experience, while the Spring Boot backend handles the application logic and API endpoints efficiently. MySQL is used for secure and reliable data storage, enabling seamless access to user reviews and ratings. Film Rave combines modern web technologies to deliver a comprehensive and enjoyable movie review platform.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+        </div>
+     </section>
+
+     <!--contact-->
+
+     <!-- <section class="contact" id="contact">
+        <h2 class="heading">Contact<span> Me</span></h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <i class="fa-solid fa-envelope"></i>
+                <h3><a href="mailto:vineeth.gmhub@gmail.com">Email</a></h3>
+            </div>
+    
+            
+
+            <div class="contact-item">
+                <a href="https://www.linkedin.com/in/vineethgm/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <h3>Linked-in</h3>
+            </div>
+
+            <div class="contact-item">
+                <a href="https://github.com/Vineethgm-Projects"><i class="fa-brands fa-github"></i></a>
+                <h3>Github</h3>
+            </div>
+        </div>
+    </section> -->
+    
+
+     <!--footer-->
+
+     <footer class="contact">
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact<span> Me</span></h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h3><a href="mailto:vineeth.gmhub@gmail.com">Email</a></h3>
+                </div>
+        
+                <!-- <div class="contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <h3>Contact Number</h3>
+                    <h3><a href="tel:+918778760931">+91 8778760931</a></h3>
+                </div> -->
+    
+                <div class="contact-item">
+                    <a href="https://www.linkedin.com/in/vineethgm/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <h3>Linked-in</h3>
+                </div>
+    
+                <div class="contact-item">
+                    <a href="https://github.com/Vineethgm-Projects"><i class="fa-brands fa-github"></i></a>
+                    <h3>Github</h3>
+                </div>
+            </div>
+        </section>
+     </footer>
+
+     <!--scroll reveal-->
+     <script src="https://unpkg.com/scrollreveal"></script>
+
+     <!--typed js-->
+     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script src="main.js"></script>
+</body>
+</html>
